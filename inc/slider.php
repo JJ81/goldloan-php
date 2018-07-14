@@ -1,19 +1,19 @@
 <!-- start header area -->
 <section class="main-slider-area">
     <div class="active-main-slider owl-carousel">
-        <div class="main-slider-item" style="background-image: url(asset/img/slider-1.jpg);">
+        <div class="main-slider-item" style="background-image: url(asset/img/img_banner_palace.jpg);background-position: center center;">
             <div class="slider-one-content">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <div class="main-slider-welcome-text">
                                 <div class="slider-cell">
-                                    <h2 class="sub-title" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRIght">Leading bank loan provider in the market</h2>
-                                    <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">Are you looking for business
-                                        <br>enhancement loan?</h2>
+                                    <h2 class="sub-title" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRIght">빠르고 쉽고 간편하게</h2>
+                                    <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">카드한도 대출은
+                                        <br>골드론에서!</h2>
                                     <div class="welcome-button" data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutDown">
-                                        <a href="#" class="btn btn-default button-primary">Apply Loan</a>
-                                        <a href="#" class="button-secondary btn btn-default">Contact Us</a>
+                                        <a href="#" class="btn btn-default button-primary">즉시 대출</a>
+                                        <a href="#" class="button-secondary btn btn-default">상담문의</a>
                                     </div>
                                 </div>
                             </div>
@@ -22,20 +22,18 @@
                 </div>
             </div>
         </div>
-        <div class="main-slider-item" style="background-image: url(asset/img/slider-1.jpg);">
+        <div class="main-slider-item" style="background-image: url(asset/img/img_banner_benz.jpg);background-position: center center;">
             <div class="slider-one-content">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-left">
                             <div class="main-slider-welcome-text">
                                 <div class="slider-cell">
-                                    <h2 class="sub-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">98% Customer Satisfied with us.</h2>
-                                    <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">Download our free app to check
-
-                                        <br>your interest rate</h2>
+                                    <h2 class="sub-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">누구나 언제나 어디서든지</h2>
+                                    <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">간편하게 전화 한통으로</h2>
                                     <div class="welcome-button" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">
-                                        <a href="#" class="btn btn-default button-primary"><span></span>  App STORE</a>
-                                        <a href="#" class="button-secondary btn btn-default"><span></span>  PLAY STORE</a>
+                                        <a href="#" class="btn btn-default button-primary">지금 전화</a>
+                                        <a href="#" class="button-secondary btn btn-default">실시간 상담</a>
                                     </div>
                                 </div>
                             </div>

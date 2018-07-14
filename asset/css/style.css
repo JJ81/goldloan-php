@@ -108,7 +108,8 @@ Version: 1.0.0
 }
 
 .logo-right-address {
-    padding: 40px 0;
+    /*padding: 40px 0;*/
+    padding: 30px 0 0 0;
 }
 
 .single-address .content span {
@@ -131,7 +132,9 @@ Version: 1.0.0
 
 
 .sitelogo {
-    margin-top: 8px;
+    /*margin-top: 8px;*/
+    position: relative;
+    top: -15px;
 }
 
 
@@ -543,10 +546,18 @@ section.featured-section.section-padding {
 
 section.get-consultation-section {
     position: relative;
-    background-image: url(../img/get-bg.jpg);
+    background-image: url(../img/img_tmp_middle.jpg);
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: center center;
 }
+
+/*section.get-consultation-section {*/
+    /*position: relative;*/
+    /*background-image: url(../img/get-bg.jpg);*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
 
 section.get-consultation-section:before {
     position: absolute;

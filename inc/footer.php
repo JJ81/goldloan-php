@@ -5,7 +5,8 @@
             <div class="col-md-12 col-lg-12">
                 <div class="footer-widget">
                     <div class="footer-title">
-                        <img src="asset/img/footer-logo.png" alt="" />
+<!--                        <img src="asset/img/footer-logo.png" alt="" />-->
+                        <a href="/"><img src="<?php echo ROOT; ?>asset/img/img_logo_goldloan.png" alt="" width="180" /></a>
                     </div>
                     <div class="mail">
                         <span>이메일 :</span>

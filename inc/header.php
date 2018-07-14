@@ -22,7 +22,8 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="sitelogo">
-                        <a href="/"><img src="<?php echo ROOT; ?>asset/img/logo.png" alt="" /></a>
+<!--                        <a href="/"><img src="--><?php //echo ROOT; ?><!--asset/img/logo.png" alt="" /></a>-->
+                        <a href="/"><img src="<?php echo ROOT; ?>asset/img/img_logo_goldloan.png" alt="" width="180" /></a>
                     </div>
                 </div>
                 <div class="col-md-8">

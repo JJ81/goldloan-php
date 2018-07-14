@@ -354,18 +354,25 @@ section.loan-second-services.section-padding {
 /*end of services section*/
 
 section.dream-quote {
-    background-image: url(../img/dreambg.jpg);
+    background-image: url(../img/img_tmp_bottom.jpg);
+    background-repeat: no-repeat;
     position: relative;
-    -webkit-background-size: cover;
     background-size: cover;
 }
+
+/*section.dream-quote {*/
+    /*background-image: url(../img/dreambg.jpg);*/
+    /*position: relative;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
 
 section.dream-quote:before {
     position: absolute;
     width: 100%;
     height: 100%;
     content: "";
-    background-color: rgba(35, 41, 53, .7);
+    /*background-color: rgba(35, 41, 53, .7);*/
     top: 0;
     left: 0;
 }
