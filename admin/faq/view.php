@@ -141,5 +141,6 @@ if(count($row) === 0){
 <!-- End Wrapper -->
 
 <?php require_once ('../inc/foot.php'); ?>
+<?php require_once ('../modal/modal_modify_pass.php'); ?>
 </body>
 </html>

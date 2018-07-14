@@ -99,6 +99,7 @@ if($_SESSION['role'] !== 'A'){
 <!-- End Wrapper -->
 
 <?php require_once ('../inc/foot.php'); ?>
+<?php require_once ('../modal/modal_modify_pass.php'); ?>
 <script type="text/javascript" src="/plugin/se2/js/HuskyEZCreator.js" charset="utf-8"></script>
 <script type="text/javascript">
     var oEditors = [];
