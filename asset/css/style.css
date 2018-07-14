@@ -1189,7 +1189,18 @@ section.footer-area.section-padding {
 
 .mail {
     color: #24c8a6;
-    font-weight: 400
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.mail a{
+    color: #24c8a6;
+}
+
+.txt-green{
+    color: #24c8a6;
 }
 
 .pages-widget ul li a {

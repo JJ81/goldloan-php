@@ -44,26 +44,6 @@
                 </div>
             </div>
         </div>
-        <div class="main-slider-item" style="background-image: url(asset/img/slider-1.jpg);">
-            <div class="slider-one-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="main-slider-welcome-text">
-                                <div class="slider-cell">
-                                    <h2 class="sub-title" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight">Leading bank loan provider in the market</h2>
-                                    <h2 class="main-title" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight">Lowest Interest Rate on Home Loan</h2>
-                                    <div class="welcome-button" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight">
-                                        <a href="#" class="btn btn-default button-primary"><span></span>  App STORE</a>
-                                        <a href="#" class="button-secondary btn btn-default"><span></span>  PLAY STORE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!-- end of header area -->
@@ -78,8 +58,8 @@
                         <img src="<?php echo ROOT; ?>asset/img/clock.png" alt="" />
                     </div>
                     <div class="content">
-                        <p>Quick & Easy Loan
-                            <br> Approvals
+                        <p>쉽고 빠른 대출
+                            <br> 승인
                         </p>
                     </div>
                 </div>
@@ -90,8 +70,8 @@
                         <img src="<?php echo ROOT; ?>asset/img/user.png" alt="" />
                     </div>
                     <div class="content">
-                        <p>5,000K Customers
-                            <br> Satisfied
+                        <p>500만 고객이
+                            <br> 만족한 상품
                         </p>
                     </div>
                 </div>
@@ -102,16 +82,15 @@
                         <img src="<?php echo ROOT; ?>asset/img/camera.png" alt="" />
                     </div>
                     <div class="content">
-                        <p>No Prepayment or
-                            <br> Hidden Fees</p>
+                        <p>어떤 별도의 수수료 없이
+                            <br> 바로 송금</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="single-header-bottom mb0">
-                    <div class="search-box">
-                        <input type="text" name="s" placeholder="Enter your Zip Code">
-                        <button type="submit" class="fa fa-search"></button>
+                    <div class="check-your-rate-btn">
+                        <a href="#" class="btn btn-default btn-sm">지금바로문의</a>
                     </div>
                 </div>
             </div>

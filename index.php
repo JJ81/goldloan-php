@@ -8,13 +8,65 @@ require_once('./commons/utils.php');
 <head>
     <?php require_once ('./inc/head.php');?>
 
-    <title>골드대출</title>
+    <title>골드론 GoldLoan</title>
 </head>
 
 <body class="js">
 
 <?php require_once ('./inc/header.php');?>
 <?php require_once ('./inc/slider.php');?>
+<!-- start second about area -->
+<section class="second-about-area section-padding">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <div class="second-about-content">
+                    <h2>골드론 대출이란?</h2>
+                    <p>카드한도대출 골드론에서!</p>
+                    <p>
+                        카드잔여한도 대출 <br />
+                        카드소지자라면 <br />
+                        누구나 간단하게 <br />
+                        즉시 대출!
+                    </p>
+                    <a href="tel:010-6488-7243" class="btn btn-default btn-sm">010-6488-7243</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="about-cradit-list">
+                    <ul>
+                        <li>연 5~25% (요청금액별차등)</li>
+                        <li>숨겨져 있는 수수료나 패널티는 NO</li>
+                        <li>대출기간 최대 ~24개월</li>
+                    </ul>
+                    <p>* 지금 당신의 신용카드한도를 확인하세요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of second about area -->
+
+
+<!-- .start check your rate button -->
+<section class="check-rate-btn-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="check-your-rate-text">
+                    <h4>지금 당장! 당신의 신용카드한도를 확인해보세요!</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="check-your-rate-btn">
+                    <a href="tel:010-6488-7243" class="btn btn-default btn-sm">지금상담</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of check your rate button -->
+
 
 <!-- start featured section -->
 <section class="featured-section section-padding">
@@ -22,8 +74,8 @@ require_once('./commons/utils.php');
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="section-title">
-                    <h2>Loans for your life</h2>
-                    <p>We have range of product for your loan solutions</p>
+                    <h2>대출이 필요한 삶</h2>
+                    <p>정말 급할 때 대출은 당신의 삶에 활력이 됩니다.</p>
                 </div>
             </div>
         </div>
@@ -34,9 +86,8 @@ require_once('./commons/utils.php');
                         <img src="<?php echo ROOT; ?>asset/img/icon-1.png" alt="" />
                     </div>
                     <div class="content">
-                        <h4>Personal Loan</h4>
-                        <p>Pеrѕоnаl loan is unѕесurеd wіth fіxеd рауmеntѕ.</p>
-                        <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                        <h4>개인적 목적을 위해</h4>
+                        <p>개인적으로 사용해야 하는 급전!</p>
                     </div>
                 </div>
             </div>
@@ -46,9 +97,8 @@ require_once('./commons/utils.php');
                         <img src="<?php echo ROOT; ?>asset/img/car.png" alt="" />
                     </div>
                     <div class="content">
-                        <h4>Car Loan</h4>
-                        <p>Cаr loan is most popular kіnd оf installment lоаn.</p>
-                        <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                        <h4>자동차 구매를 위해</h4>
+                        <p>평소에 찜해놓은 차를 구매할 때 모자르는 돈</p>
                     </div>
                 </div>
             </div>
@@ -58,9 +108,8 @@ require_once('./commons/utils.php');
                         <img src="<?php echo ROOT; ?>asset/img/home.png" alt="" />
                     </div>
                     <div class="content">
-                        <h4>Business Loan</h4>
-                        <p>You nееd a loan tо new business expand еxіѕtіng.</p>
-                        <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                        <h4>비즈니스를 위해</h4>
+                        <p>비즈니를 할 때 필요한 돈</p>
                     </div>
                 </div>
             </div>
@@ -70,9 +119,8 @@ require_once('./commons/utils.php');
                         <img src="<?php echo ROOT; ?>asset/img/education.png" alt="" />
                     </div>
                     <div class="content">
-                        <h4>Home Loan</h4>
-                        <p>Buуіng a hоmе is оnе of the bіggеѕt dесіѕіоn еvеr make.</p>
-                        <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                        <h4>주택마련을 위해</h4>
+                        <p>주택마련을 위해서 통장에 잔고가 모자르다면!</p>
                     </div>
                 </div>
             </div>
@@ -82,9 +130,8 @@ require_once('./commons/utils.php');
                         <img src="<?php echo ROOT; ?>asset/img/money.png" alt="" />
                     </div>
                     <div class="content">
-                        <h4>Education Loan</h4>
-                        <p>Student get more benifit compare to businesss loan.</p>
-                        <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                        <h4>자녀 교육비를 위해</h4>
+                        <p>자녀의 교육비를 위해 잠시 숨을 돌려야 한다면!</p>
                     </div>
                 </div>
             </div>
@@ -94,9 +141,8 @@ require_once('./commons/utils.php');
                         <img src="<?php echo ROOT; ?>asset/img/card.png" alt="" />
                     </div>
                     <div class="content">
-                        <h4>Payday Loan</h4>
-                        <p>Customer need only pay per day interest on loan.</p>
-                        <a href="#">READ MORE <i class="fa fa-angle-double-right"></i></a>
+                        <h4>갚아야할 자금을 위해서</h4>
+                        <p>대출 만기가 다가올 때 간편하게 막고 싶다면!</p>
                     </div>
                 </div>
             </div>
@@ -111,10 +157,10 @@ require_once('./commons/utils.php');
         <div class="row justify-content-center">
             <div class="col-md-8 text-center">
                 <div class="get-consultation-content">
-                    <h4>Get free consultations</h4>
-                    <h2>Checking your loan options does not affect <br>
-                        your credit score</h2>
-                    <a href="#" class="button btn btn-default btn-sm">Apply Loan</a>
+                    <h4>무료 간편 상담</h4>
+                    <h3 style="line-height: 40px;">신용카드 한도 대출!<br>
+                        친절하게 상담해드리겠습니다.</h3>
+                    <a href="tel:010-6488-7243" class="button btn btn-default btn-sm">010-6488-7243</a>
                 </div>
             </div>
         </div>
@@ -122,459 +168,213 @@ require_once('./commons/utils.php');
 </section>
 <!-- end of get consultation section -->
 
-<!-- start why choose lender section -->
-<section class="why-choose-lender section-padding">
+<!-- .start loan process second -->
+<section class="second-loan-process section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="section-title">
-                    <h2>Why Choose Lender</h2>
-                    <p>The passages of Lorem Ipsum available but the majority have suffered alteration embarrased</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="single-why-choose">
-                    <div class="choose-img">
-                        <img src="asset/img/choose-1.jpg" alt="" />
-                    </div>
-                    <div class="choose-title">
-                        <h4><img src="<?php echo ROOT; ?>asset/img/icon-2.png" alt="">No Hidden Fees</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="single-why-choose">
-                    <div class="choose-img">
-                        <img src="asset/img/choose-2.jpg" alt="" />
-                    </div>
-                    <div class="choose-title">
-                        <h4><img src="<?php echo ROOT; ?>asset/img/icon-3.png" alt="">Less Documents</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="single-why-choose">
-                    <div class="choose-img">
-                        <img src="asset/img/choose-3.jpg" alt="" />
-                    </div>
-                    <div class="choose-title">
-                        <h4><img src="<?php echo ROOT; ?>asset/img/icon-4.png" alt="">Specialist Team</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end of why choose lender section -->
-
-<!-- start loan process section -->
-<section class="loan-process-section section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="section-title">
-                    <h2>Simple Loan Process</h2>
-                    <p>The passages of Lorem Ipsum available but the majority have suffered alteration embarrased</p>
+                    <h2>초간단 대출 절차</h2>
+                    <p>골드론에서는 초간단 절차로 대출이 서비스됩니다.</p>
                 </div>
             </div>
         </div>
         <div class="row process-list">
-            <div class="col-lg-3 col-md-6 process text-center">
-                <div class="single-process">
-                    <div class="proces-icon">
-                        <span class="pe-7s-note"></span>
-                    </div>
-                    <div class="content">
-                        <h4 class="process-title">Choose Loan Amount</h4>
-                        <p>Choose your loan amount and terms to use loan</p>
+            <div class="col-md-3 second-process">
+                <div class="second-single-loan-process">
+                    <h4>요청 접수</h4>
+                    <div class="icon">
+                        <img src="asset/img/pade.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 process text-center">
-                <div class="single-process">
-                    <div class="proces-icon">
-                        <span class="pe-7s-id"></span>
-                    </div>
-                    <div class="content">
-                        <h4 class="process-title">Provide Document</h4>
-                        <p>Need to provide some basic document to verification</p>
+            <div class="col-md-3 second-process">
+                <div class="second-single-loan-process">
+                    <h4>간단 심사</h4>
+                    <div class="icon">
+                        <img src="asset/img/dollar.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 process text-center">
-                <div class="single-process">
-                    <div class="proces-icon">
-                        <span class="pe-7s-check"></span>
-                    </div>
-                    <div class="content">
-                        <h4 class="process-title">Approved Loan</h4>
-                        <p>Our loan specialist ask fews question and verify docuements.</p>
+            <div class="col-md-3 second-process">
+                <div class="second-single-loan-process">
+                    <h4>빠른 승인</h4>
+                    <div class="icon">
+                        <img src="asset/img/handshake.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 process text-center">
-                <div class="single-process">
-                    <div class="proces-icon">
-                        <span class="pe-7s-cash"></span>
-                    </div>
-                    <div class="content">
-                        <h4 class="process-title">Get your Money</h4>
-                        <p>Once loan aprroved you get loan amount credit.</p>
+            <div class="col-md-3 second-process">
+                <div class="second-single-loan-process">
+                    <h4>바로 송금</h4>
+                    <div class="icon">
+                        <img src="asset/img/get-money.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- end of loan process section -->
+<!-- end of loan process two -->
 
-<!-- start team section -->
-<section class="team-section section-padding">
+<!-- start services section -->
+<section class="loan-second-services section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="section-title">
-                    <h2>Our Experts</h2>
-                    <p>Our lоаn specialists will wаlk уоu thrоugh the рrосеѕѕ offering undеrѕtаndіng and guidance thrоugh out. </p>
+                    <h2>골드론 대출 조건</h2>
+                    <p>골드론에서는 아래와 같은 간단한 조건만으로 속시원하게 대출이 가능합니다.</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="single-team">
-                    <div class="team-thumb">
-                        <img src="asset/img/team-1.jpg" alt="" />
-                        <div class="team-hover">
-                            <div class="display-table">
-                                <div class="display-cell">
-                                    <div class="team-hover-content">
-                                        <div class="team-link">
-                                            <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                        <p>Stuart Binny has Loan Consultant to solve all loan query in loanplus team.</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="col-md-4">
+                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                    <div class="display-cell">
+                        <div class="icon">
+                            <img src="asset/img/card.png" alt="">
                         </div>
-                    </div>
-                    <div class="team-content text-center">
-                        <h4>Stuart Binny</h4>
-                        <p>Loan Consultant</p>
+                        <div class="content">
+                            <h4>신용카드소지자</h4>
+                            <p>대출대상은 신용카드소시자입니다.
+                                <br> 신용카드 하나쯤은 가지고 계시지요?</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-team">
-                    <div class="team-thumb">
-                        <img src="asset/img/team-2.jpg" alt="" />
-                        <div class="team-hover">
-                            <div class="display-table">
-                                <div class="display-cell">
-                                    <div class="team-hover-content">
-                                        <div class="team-link">
-                                            <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                        <p>Joe Elsworth has Head of Operations to solve customer query in loanplus team.</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="col-md-4">
+                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                    <div class="display-cell">
+                        <div class="icon">
+                            <img src="asset/img/icon-1.png" alt="">
                         </div>
-                    </div>
-                    <div class="team-content text-center">
-                        <h4>Joe Elsworth</h4>
-                        <p>Head of Operations</p>
+                        <div class="content">
+                            <h4>무한도</h4>
+                            <p>대출한도
+                                <br> 한도는 제한이 없습니다.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-team">
-                    <div class="team-thumb">
-                        <img src="asset/img/team-3.jpg" alt="" />
-                        <div class="team-hover">
-                            <div class="display-table">
-                                <div class="display-cell">
-                                    <div class="team-hover-content">
-                                        <div class="team-link">
-                                            <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                        <p>Eliza Doe has Managing Director to manage team and company growth.</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="col-md-4">
+                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                    <div class="display-cell">
+                        <div class="icon">
+                            <img src="asset/img/car.png" alt="">
                         </div>
-                    </div>
-                    <div class="team-content text-center">
-                        <h4>Eliza Doe</h4>
-                        <p>Managing Director</p>
+                        <div class="content">
+                            <h4>연 5%~24%</h4>
+                            <p>대출금리는 연 5%~24%로
+                                <br> 요청금액별차등으로 부여됩니다.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-team">
-                    <div class="team-thumb">
-                        <img src="asset/img/team-4.jpg" alt="" />
-                        <div class="team-hover">
-                            <div class="display-table">
-                                <div class="display-cell">
-                                    <div class="team-hover-content">
-                                        <div class="team-link">
-                                            <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                        <p>Thomas Finch has Customer Relations to solve customer query in loanplus team.</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="col-md-4">
+                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                    <div class="display-cell">
+                        <div class="icon">
+                            <img src="asset/img/money.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>원리금균등 or 원금균등 택1</h4>
+                            <p>만기일시 원리금균등 혹은 원금균등 중 택1
+                                <br></p>
                         </div>
                     </div>
-                    <div class="team-content text-center">
-                        <h4>Thomas Finch</h4>
-                        <p>Customer Relations</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                    <div class="display-cell">
+                        <div class="icon">
+                            <img src="asset/img/home.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>일시불~24개월</h4>
+                            <p>대출기간
+                                <br> 읿시불 ~ 24개월</p>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                    <div class="display-cell">
+                        <div class="icon">
+                            <img src="asset/img/education.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>골드론!</h4>
+                            <p>지금바로상담하세요!!
+                                <br> 010-6488-7243</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- end of services section -->
+
+
+<!-- start dream quote  -->
+<section class="dream-quote section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="dream-quote-text">
+                    <h4>24시간 언제나 간편하게</h4>
+                    <h2>당신의 꿈을 현실로 만드는 단 하나가 있다면
+                        <br>그건 바로 <span class="txt-green">대출 플랜</span>입니다.</h2>
+                    <a href="#" class="btn btn-default btn-sm">지금채팅상담</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- end of team section -->
+<!-- end of dream quote -->
 
-<!-- start loan calculator section -->
-<section class="loan-calculator section-padding">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <div class="calculator-form">
-                    <div class="form-title">
-                        <h2>Loans Calculator</h2>
-                        <p>Apply for a loan, and you will be able to benefit from a decent and comfortable loan.</p>
-                    </div>
-                    <form action="#" method="get">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="single-select">
-                                    <label for="barrow">I’d like to Borrow</label>
-                                    <input type="text" id="barrow" name="barrow" placeholder="$300">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-select">
-                                    <label for="pay">I want to pay</label>
-                                    <input type="text" id="pay" name="want" placeholder="$200">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="single-input">
-                                    <label for="every">Every 2 Weeks</label>
-                                    <input type="text" id="every" name="every" placeholder="21 payments of $58*">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="single-input submitbtn">
-                                    <input type="submit" name="submit" value="Apply Now">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end of loan calculator section -->
 
-<!-- start testimonial section -->
-<section class="testimonial-section section-padding">
+<!-- start customer faq section -->
+<section class="custom-faq section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="section-title">
-                    <h2>Testimonials</h2>
-                    <p>The passages of Lorem Ipsum available but the majority have suffered alteration embarrased</p>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel">
-                <div class="single-testimonial">
-                    <div class="testimonial-img">
-                        <img src="<?php echo ROOT; ?>asset/img/testimonial.jpg" alt="" />
-                    </div>
-                    <div class="testimonial-content">
-                        <h4>Dwayne Johnson</h4>
-                        <h5>Self Employee</h5>
-                        <p>“Loanplus provide me a best rate compare to rest of bank i visted on all localbank.”</p>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="testimonial-img">
-                        <img src="<?php echo ROOT; ?>asset/img/testimonial-1.jpg" alt="" />
-                    </div>
-                    <div class="testimonial-content">
-                        <h4>Nia Jax</h4>
-                        <h5>IT Manager</h5>
-                        <p>“ Loanplus dеlіvеrеd еxасtlу whаt thеу offered. Nоt only dіd thеу оffеr uѕ a better rate.”</p>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="testimonial-img">
-                        <img src="<?php echo ROOT; ?>asset/img/testimonial-2.jpg" alt="" />
-                    </div>
-                    <div class="testimonial-content">
-                        <h4>Mohammed & Aashi</h4>
-                        <h5>Sales Consultant</h5>
-                        <p>“ I was іmрrеѕѕеd with the соnvеnіеnсе and very hеlрful сuѕtоmеr service.”</p>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="testimonial-img">
-                        <img src="<?php echo ROOT; ?>asset/img/testimonial.jpg" alt="" />
-                    </div>
-                    <div class="testimonial-content">
-                        <h4>Vihaan</h4>
-                        <h5>Finance Consultant</h5>
-                        <p>“ Dесlіnеd bу my local bаnk for a personal lоаn, I аm vеrу grаtеful tо Loanplus!.”</p>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="testimonial-img">
-                        <img src="<?php echo ROOT; ?>asset/img/testimonial-1.jpg" alt="" />
-                    </div>
-                    <div class="testimonial-content">
-                        <h4>Nia Jax</h4>
-                        <h5>IT Manager</h5>
-                        <p>“ Loanplus dеlіvеrеd еxасtlу whаt thеу offered. Nоt only dіd thеу оffеr uѕ a better rate.”</p>
-                    </div>
-                </div>
-                <div class="single-testimonial">
-                    <div class="testimonial-img">
-                        <img src="<?php echo ROOT; ?>asset/img/testimonial-2.jpg" alt="" />
-                    </div>
-                    <div class="testimonial-content">
-                        <h4>Reyansh</h4>
-                        <h5>Lawyer</h5>
-                        <p>“ I was іmрrеѕѕеd with the соnvеnіеnсе and very hеlрful сuѕtоmеr service.”</p>
-                    </div>
+                    <h2>자주 묻는 질문답변 (FAQ)</h2>
+                    <p>고객님께서 궁금해하시는 부분 중 자주 묻는 질문에 대한 답변 내용입니다.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- end of testimonial section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="accordion" class="second-accordion">
 
-<!-- start map section -->
-<section class="map-image-section section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="map-img">
-                    <img src="<?php echo ROOT; ?>asset/img/map.png" alt="" />
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="map-content">
-                    <h2>Worldwide Network </h2>
-                    <p>We understand that we аrе ореrаtіng in a dynamic environment аnd hаvе evolved our strategy tо maximize the opportunity іn аn іnсrеаѕіnglу digital global world. Wіth our full wоrldwіdе network, wе are еvоlvіng tо mееt thе changing nееdѕ оf millions of сuѕtоmеrѕ асrоѕѕ different borders.</p>
-                    <a href="#" class="button btn btn-primary btn-sm"><i class="fa fa-reply-all"></i> GET A QUOTES</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end of map section -->
-
-<!-- start latest article section -->
-<section class="latest-article-section section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="section-title">
-                    <h2>Latest Articles</h2>
-                    <p>News related for loan,credit card and intrest rate</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <div class="single-article">
-                    <div class="article-img">
-                        <a href="#"><img src="<?php echo ROOT; ?>asset/img/articale-1.jpg" alt="" /></a>
-                        <div class="article-date">
-                            <p>Feb 20, 2018</p>
+                    <?php for($i=1,$size=10;$i<$size;$i++){ ?>
+                    <div class="card">
+                        <div class="card-header" id="heading-<?php echo $i; ?>">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link <?php if($i !== 1){ echo 'collapsed';} ?>" data-toggle="collapse" data-target="#collapse-<?php echo $i; ?>" aria-expanded="<?php if($i == 1){ echo 'true';}else{ echo 'false';} ?>" aria-controls="collapse-<?php echo $i; ?>">
+                                    질문을 출력합니다. (<?php echo $i; ?>)
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse-<?php echo $i; ?>" class="collapse <?php if($i == 1){ echo 'show';} ?>" aria-labelledby="heading-<?php echo $i; ?>" data-parent="#accordion">
+                            <div class="card-body">
+                                답변을 출력합니다 (<?php echo $i; ?>)
+                            </div>
                         </div>
                     </div>
-                    <a href="#"><h2>How to you can compare Pеrѕоnаl loans vеrѕuѕ car lоаnѕ</h2></a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="single-article">
-                    <div class="article-img">
-                        <a href="#"><img src="<?php echo ROOT; ?>asset/img/articale-2.jpg" alt="" /></a>
-                        <div class="article-date">
-                            <p>Mar 10, 2018</p>
-                        </div>
-                    </div>
-                    <a href="#">
-                        <h2>Whаt should I need to do to gеt a реrѕоnаl loan very fast</h2></a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="single-article-list">
-                    <div class="article-list-img">
-                        <a href="#"><img src="<?php echo ROOT; ?>asset/img/articale-sm.jpg" alt="" /></a>
-                    </div>
-                    <div class="article-list-content">
-                        <a href="#"><h4>Granted my loan</h4></a>
-                        <p>The majority have suffer bose going to use a passage</p>
-                    </div>
-                </div>
-                <div class="single-article-list">
-                    <div class="article-list-img">
-                        <a href="#"><img src="<?php echo ROOT; ?>asset/img/articale-sm-2.jpg" alt="" /></a>
-                    </div>
-                    <div class="article-list-content">
-                        <a href="#"><h4>Consulting assets</h4></a>
-                        <p>The majority have suffer bose going to use a passage</p>
-                    </div>
-                </div>
-                <div class="view-all-post">
-                    <a href="#" class="btn btn-primary btn-lg">VIEW ALL POST  <i class="fa fa-angle-right"></i></a>
+                    <?php } ?>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- end of latest article section -->
-
-<!-- start brand section -->
-<section class="brand-section">
-    <div class="container">
-        <div class="brand-slider owl-carousel">
-            <div class="single-brand">
-                <img src="<?php echo ROOT; ?>asset/img/brand-1.png" alt="" />
-            </div>
-            <div class="single-brand">
-                <img src="<?php echo ROOT; ?>asset/img/brand-2.png" alt="" />
-            </div>
-            <div class="single-brand">
-                <img src="<?php echo ROOT; ?>asset/img/brand-3.png" alt="" />
-            </div>
-            <div class="single-brand">
-                <img src="<?php echo ROOT; ?>asset/img/brand-4.png" alt="" />
-            </div>
-            <div class="single-brand">
-                <img src="<?php echo ROOT; ?>asset/img/brand-5.png" alt="" />
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end of brand section -->
+<!-- end of customer faq section -->
 
 
 <?php require_once ('./inc/footer.php');?>
