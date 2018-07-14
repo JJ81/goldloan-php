@@ -1,6 +1,15 @@
 <?php
+require_once ('./autoload.php');
 require_once('./commons/config.php');
 require_once('./commons/utils.php');
+
+use Msg\Database\DBConnection as DBconn;
+$db = new DBconn();
+
+$query_faq="select * from `cms_board_faq` where `active`=1 order by `id` desc;";
+$faq=$db->query($query_faq);
+$db=null;
+
 
 ?>
 <!DOCTYPE html>
@@ -352,19 +361,18 @@ require_once('./commons/utils.php');
         <div class="row">
             <div class="col-md-12">
                 <div id="accordion" class="second-accordion">
-
-                    <?php for($i=1,$size=10;$i<$size;$i++){ ?>
+                    <?php for($i=0,$size=count($faq);$i<$size;$i++){ ?>
                     <div class="card">
                         <div class="card-header" id="heading-<?php echo $i; ?>">
                             <h5 class="mb-0">
-                                <button class="btn btn-link <?php if($i !== 1){ echo 'collapsed';} ?>" data-toggle="collapse" data-target="#collapse-<?php echo $i; ?>" aria-expanded="<?php if($i == 1){ echo 'true';}else{ echo 'false';} ?>" aria-controls="collapse-<?php echo $i; ?>">
-                                    질문을 출력합니다. (<?php echo $i; ?>)
+                                <button class="btn btn-link <?php if($i !== 0){ echo 'collapsed';} ?>" data-toggle="collapse" data-target="#collapse-<?php echo $i; ?>" aria-expanded="<?php if($i == 0){ echo 'true';}else{ echo 'false';} ?>" aria-controls="collapse-<?php echo $i; ?>">
+                                    <?php echo $faq[$i]['title']; ?>
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapse-<?php echo $i; ?>" class="collapse <?php if($i == 1){ echo 'show';} ?>" aria-labelledby="heading-<?php echo $i; ?>" data-parent="#accordion">
-                            <div class="card-body">
-                                답변을 출력합니다 (<?php echo $i; ?>)
+                        <div id="collapse-<?php echo $i; ?>" class="collapse <?php if($i == 0){ echo 'show';} ?>" aria-labelledby="heading-<?php echo $i; ?>" data-parent="#accordion">
+                            <div class="card-body" style="white-space: pre-line">
+                                <?php echo $faq[$i]['contents']; ?>
                             </div>
                         </div>
                     </div>
