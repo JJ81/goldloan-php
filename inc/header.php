@@ -69,12 +69,12 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div id="cssmenu" style="position: relative;min-height: 47px;">
-                        <ul>
-                            <li><a href="#">메인</a></li>
-                            <li><a href="#">골드론대출이란?</a></li>
-                            <li><a href="#">간편대촐절차</a></li>
-                            <li><a href="#">대출정보안내</a></li>
-                            <li><a href="#">자주묻는질문답변(FAQ)</a></li>
+                        <ul class="nav-auto">
+                            <li><a href="#none">메인</a></li>
+                            <li><a href="#none">골드론대출이란?</a></li>
+                            <li><a href="#none">간편대촐절차</a></li>
+                            <li><a href="#none">대출정보안내</a></li>
+                            <li><a href="#none">자주묻는질문답변(FAQ)</a></li>
                             <li><a href="tel:1599-8486" class="btn-call">지금바로전화</a></li>
 <!--                            <li><a href="#" class="btn-chat">실시간채팅상담</a></li>-->
                         </ul>

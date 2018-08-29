@@ -17,7 +17,7 @@ $db=null;
 <head>
     <?php require_once ('./inc/head.php');?>
 
-    <title>골드론 GoldLoan</title>
+    <title>골드론 GoldLoan, 카드한도대출은 골드론에서!</title>
 </head>
 
 <body class="js">
