@@ -38,7 +38,7 @@ $db=null;
                         누구나 간단하게 <br />
                         즉시 대출!
                     </p>
-                    <a href="tel:010-6488-7243" class="btn btn-default btn-sm">010-6488-7243</a>
+                    <a href="tel:1599-8486" class="btn btn-default btn-sm">1599-8486</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6">
@@ -68,7 +68,7 @@ $db=null;
             </div>
             <div class="col-md-4">
                 <div class="check-your-rate-btn">
-                    <a href="tel:010-6488-7243" class="btn btn-default btn-sm">지금상담</a>
+                    <a href="tel:1599-8486" class="btn btn-default btn-sm">지금상담</a>
                 </div>
             </div>
         </div>
@@ -169,7 +169,7 @@ $db=null;
                     <h4>무료 간편 상담</h4>
                     <h3 style="line-height: 40px;">신용카드 한도 대출!<br>
                         친절하게 상담해드리겠습니다.</h3>
-                    <a href="tel:010-6488-7243" class="button btn btn-default btn-sm">010-6488-7243</a>
+                    <a href="tel:1599-8486" class="button btn btn-default btn-sm">1599-8486</a>
                 </div>
             </div>
         </div>
@@ -239,7 +239,7 @@ $db=null;
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                <div class="second-single-servces">
                     <div class="display-cell">
                         <div class="icon">
                             <img src="asset/img/card.png" alt="">
@@ -253,7 +253,7 @@ $db=null;
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                <div class="second-single-servces">
                     <div class="display-cell">
                         <div class="icon">
                             <img src="asset/img/icon-1.png" alt="">
@@ -267,7 +267,7 @@ $db=null;
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                <div class="second-single-servces">
                     <div class="display-cell">
                         <div class="icon">
                             <img src="asset/img/car.png" alt="">
@@ -281,7 +281,7 @@ $db=null;
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                <div class="second-single-servces">
                     <div class="display-cell">
                         <div class="icon">
                             <img src="asset/img/money.png" alt="">
@@ -295,7 +295,7 @@ $db=null;
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                <div class="second-single-servces">
                     <div class="display-cell">
                         <div class="icon">
                             <img src="asset/img/home.png" alt="">
@@ -303,13 +303,13 @@ $db=null;
                         <div class="content">
                             <h4>일시불~24개월</h4>
                             <p>대출기간
-                                <br> 읿시불 ~ 24개월</p>
+                                <br> 일시불 ~ 24개월</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="second-single-servces" style="background-image: url(asset/img/services-1.png)">
+                <div class="second-single-servces">
                     <div class="display-cell">
                         <div class="icon">
                             <img src="asset/img/education.png" alt="">
@@ -317,7 +317,7 @@ $db=null;
                         <div class="content">
                             <h4>골드론!</h4>
                             <p>지금바로상담하세요!!
-                                <br> 010-6488-7243</p>
+                                <br> 1599-8486</p>
                         </div>
                     </div>
                 </div>
@@ -338,7 +338,7 @@ $db=null;
                     <h4>24시간 언제나 간편하게</h4>
                     <h2>당신의 꿈을 현실로 만드는 단 하나가 있다면
                         <br>그건 바로 <span class="txt-green">대출 플랜</span>입니다.</h2>
-                    <a href="#" class="btn btn-default btn-sm">지금채팅상담</a>
+                    <a href="tel:1599-8486" class="btn btn-default btn-sm">지금상담 1599-8486</a>
                 </div>
             </div>
         </div>

@@ -12,8 +12,8 @@
                                     <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">카드한도 대출은
                                         <br>골드론에서!</h2>
                                     <div class="welcome-button" data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutDown">
-                                        <a href="#" class="btn btn-default button-primary">즉시 대출</a>
-                                        <a href="#" class="button-secondary btn btn-default">상담문의</a>
+<!--                                        <a href="#" class="btn btn-default button-primary">즉시 대출</a>-->
+                                        <a href="tel:1599-8486" class="button-secondary btn btn-default">상담문의 1599-8486</a>
                                     </div>
                                 </div>
                             </div>
@@ -32,8 +32,8 @@
                                     <h2 class="sub-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">누구나 언제나 어디서든지</h2>
                                     <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">간편하게 전화 한통으로</h2>
                                     <div class="welcome-button" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">
-                                        <a href="#" class="btn btn-default button-primary">지금 전화</a>
-                                        <a href="#" class="button-secondary btn btn-default">실시간 상담</a>
+                                        <a href="tel:1599-8486" class="btn btn-default button-primary">지금 전화 1599-8486</a>
+<!--                                        <a href="#" class="button-secondary btn btn-default">실시간 상담</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="single-header-bottom mb0">
                     <div class="check-your-rate-btn">
-                        <a href="#" class="btn btn-default btn-sm">지금바로문의</a>
+                        <a href="tel:1599-8486" class="btn btn-default btn-sm">지금바로문의</a>
                     </div>
                 </div>
             </div>

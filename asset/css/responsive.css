@@ -1,3 +1,7 @@
+.logo-m{
+    display: none;
+}
+
     @media only screen and (min-width: 1400px) {}
 
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -84,6 +88,7 @@
             width: 100%;
             text-align: center;
             margin-bottom: 0;
+            /*margin-bottom: 10px;*/
         }
         .single-address:last-child a.button {
             display: inline-block;
@@ -193,6 +198,10 @@
 
     @media only screen and (max-width: 767px) {
 
+        .logo-m{
+            display: inline-block;
+        }
+
         /*start home page one csss*/
         .left-info p {
             font-size: 14px;
@@ -209,13 +218,15 @@
         }
 
         .sitelogo {
-            text-align: left;
+            /*text-align: left;*/
+            text-align: center;
             margin-bottom: 20px;
         }
 
         .single-address {
             width: 100%;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .single-address a.button {
@@ -223,7 +234,8 @@
         }
 
         .single-address:last-child {
-            margin-bottom: 0;
+            /*margin-bottom: 0;*/
+            margin-bottom: 10px;
         }
         .searchbtn {
             display: none;
@@ -564,3 +576,4 @@
             line-height: 180px;
         }
     }
+

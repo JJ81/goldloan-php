@@ -35,8 +35,8 @@
                             <div class="content">
                                 <p>
                                     <span>24시간 고객센터<br />
-                                        <a href="tel:01064887243">
-                                            <strong>010-6488-7243</strong>
+                                        <a href="tel:1599-8486">
+                                            <strong>1599-8486</strong>
                                         </a>
                                     </span>
                                 </p>
@@ -54,10 +54,10 @@
                             </div>
                         </div>
                         <div class="single-address">
-                            <a href="#" class="button btn btn-default btn-sm">
-                                <i class="fa fa-reply-all"></i>
-                                실시간 채팅 상담
-                            </a>
+<!--                            <a href="#" class="button btn btn-default btn-sm">-->
+<!--                                <i class="fa fa-reply-all"></i>-->
+<!--                                실시간 채팅 상담-->
+<!--                            </a>-->
                         </div>
                     </div>
                 </div>
@@ -68,16 +68,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12">
-                    <div id="cssmenu">
+                    <div id="cssmenu" style="position: relative;min-height: 47px;">
                         <ul>
                             <li><a href="#">메인</a></li>
                             <li><a href="#">골드론대출이란?</a></li>
                             <li><a href="#">간편대촐절차</a></li>
                             <li><a href="#">대출정보안내</a></li>
                             <li><a href="#">자주묻는질문답변(FAQ)</a></li>
-                            <li><a href="#" class="btn-call">지금바로전화</a></li>
-                            <li><a href="#" class="btn-chat">실시간채팅상담</a></li>
+                            <li><a href="tel:1599-8486" class="btn-call">지금바로전화</a></li>
+<!--                            <li><a href="#" class="btn-chat">실시간채팅상담</a></li>-->
                         </ul>
+                        <a href="/" style="position: absolute;top: 5px;left: 5px;" class="logo-m">
+                            <img src="<?php echo ROOT; ?>asset/img/img_logo_goldloan.png" alt="" width="80" />
+                        </a>
                     </div>
                 </div>
             </div>

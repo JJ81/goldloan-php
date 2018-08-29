@@ -13,13 +13,16 @@
                         <a href="mailto:goldloan@naver.com">goldloan@naver.com</a>
                     </div>
                     <div class="mail">
-                        <span>고객센터 :</span> <a href="tel:010-6488-7243">010-6488-7243</a>
+                        <span>고객센터 :</span> <a href="tel:1599-8486">1599-8486</a>
                     </div>
                     <div class="mail">
                         <span>카카오톡 :</span>goldpays
                     </div>
                     <div class="mail">
-                        <span>사업자등록번호 :</span>000-00-00000
+                        <span>사업자등록번호 :</span>829-98-00510
+                    </div>
+                    <div class="mail">
+                        <span>주소 :</span> 부산광역시 부산진구 전포대로246번길 6, 301호(전포동,동양팰리스)
                     </div>
                 </div>
             </div>

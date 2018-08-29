@@ -8,3 +8,8 @@
 <script src="<?php echo ROOT; ?>asset/js/owl.carousel.min.js"></script>
 <script src="<?php echo ROOT; ?>asset/js/slider.js"></script>
 <script src="<?php echo ROOT; ?>asset/js/active.js"></script>
+<script>
+    /* 메뉴선택시 섹션 이동 설정 */
+
+
+</script>
