@@ -44,8 +44,8 @@ $db=null;
             <div class="col-md-6 col-lg-6">
                 <div class="about-cradit-list">
                     <ul>
-                        <li>연 5~25% (요청금액별차등)</li>
-                        <li>숨겨져 있는 수수료나 패널티는 NO</li>
+                        <li>연 5~23.9% (요청금액별차등)</li>
+                        <li>최저수수료 보장</li>
                         <li>대출기간 최대 ~24개월</li>
                     </ul>
                     <p>* 지금 당신의 신용카드한도를 확인하세요.</p>

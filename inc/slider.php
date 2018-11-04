@@ -1,5 +1,5 @@
 <!-- start header area -->
-<section class="main-slider-area">
+<section class="main-slider-area" style="margin-top: 10px;">
     <div class="active-main-slider owl-carousel">
         <div class="main-slider-item" style="background-image: url(asset/img/img_banner_palace.jpg);background-position: center center;">
             <div class="slider-one-content">
@@ -11,9 +11,16 @@
                                     <h2 class="sub-title" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRIght">빠르고 쉽고 간편하게</h2>
                                     <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">카드한도 대출은
                                         <br>골드론에서!</h2>
+
                                     <div class="welcome-button" data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutDown">
-<!--                                        <a href="#" class="btn btn-default button-primary">즉시 대출</a>-->
-                                        <a href="tel:1599-8486" class="button-secondary btn btn-default">상담문의 1599-8486</a>
+                                        <a href="tel:1599-8486" class="button-secondary btn btn-default" style="font-size: 16px;line-height: 35px;">
+                                            <span>24시간전화</span><br />
+                                            <strong style="font-size: 20px;">1599-8486</strong>
+                                        </a>
+                                        <a href="http://qr.kakao.com/talk/0KXcTeTvaEqoyR7DluygI2O91PA-" target="_blank" class="button-secondary btn btn-default" style="font-size: 16px;line-height: 35px;">
+                                            <span>24시간 카카오톡 상담</span><br />
+                                            <strong style="font-size: 20px;">goldpays</strong>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -32,8 +39,14 @@
                                     <h2 class="sub-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">누구나 언제나 어디서든지</h2>
                                     <h2 class="main-title" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">간편하게 전화 한통으로</h2>
                                     <div class="welcome-button" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft">
-                                        <a href="tel:1599-8486" class="btn btn-default button-primary">지금 전화 1599-8486</a>
-<!--                                        <a href="#" class="button-secondary btn btn-default">실시간 상담</a>-->
+                                        <a href="tel:1599-8486" class="btn btn-default button-primary" style="font-size: 16px;line-height: 35px;">
+                                            <span>24시간전화</span><br />
+                                            <strong style="font-size: 20px;">1599-8486</strong>
+                                        </a>
+                                        <a href="http://qr.kakao.com/talk/0KXcTeTvaEqoyR7DluygI2O91PA-" target="_blank" class="btn btn-default button-primary" style="font-size: 16px;line-height: 35px;">
+                                            <span>24시간 카카오톡 상담</span><br />
+                                            <strong style="font-size: 20px;">goldpays</strong>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +81,7 @@
                         <img src="<?php echo ROOT; ?>asset/img/user.png" alt="" />
                     </div>
                     <div class="content">
-                        <p>500만 고객이
+                        <p>많은 고객님이
                             <br> 만족한 상품
                         </p>
                     </div>
@@ -80,8 +93,8 @@
                         <img src="<?php echo ROOT; ?>asset/img/camera.png" alt="" />
                     </div>
                     <div class="content">
-                        <p>어떤 별도의 수수료 없이
-                            <br> 바로 송금</p>
+                        <p>최저 수수료
+                            <br>보장</p>
                     </div>
                 </div>
             </div>

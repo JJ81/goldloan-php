@@ -272,8 +272,9 @@ h2.sub-title {
     display: inline-block;
     font-size: 13px;
     text-transform: uppercase;
-    width: 160px;
+    min-width: 160px;
     margin-right: 10px;
+    padding: 0 10px;
 }
 
 .main-slider-welcome-text {
@@ -2701,3 +2702,25 @@ header.third-header.sticky {
 
 /*end of css for check box*/
 
+.ft-warning{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #e1e1e1;
+}
+
+.ft-danger{
+    background: #eb2a40;
+    color: #fff;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.center{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .logo-right-address{
+        display: none;
+    }
+}
