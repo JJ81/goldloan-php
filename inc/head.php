@@ -9,5 +9,5 @@
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>asset/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>asset/css/fontawesome-all.min.css">
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>asset/css/reset.css">
-<link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>asset/css/style.css">
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>asset/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>asset/css/style.css?v=20181105">
